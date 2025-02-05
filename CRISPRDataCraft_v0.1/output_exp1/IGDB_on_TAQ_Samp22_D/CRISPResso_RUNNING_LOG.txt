@@ -1,0 +1,13 @@
+CRISPResso version 2.2.9
+[Command used]:
+CRISPRDataCraft.py -fq output_exp1/merge/output_exp1_TaQ_Samp22.extendedFrags_filtered.fastq.gz --amplicon_seq ATGAGGAACTGGACCAAGGAGGAGTTCGTG -o output_exp1 --amplicon_name TAQ_D --quantification_window_center -3 --quantification_window_size 20 --left_primer_seq CGGTGGGTTGGGCTTGTGTTTTTTGCCAG --right_primer_seq CACATCCTCCG --n_processes_for_pooled 1 --min_average_read_quality 30 --min_bp_quality_or_N 20
+
+[Execution log]:
+Aligning sequences...
+Processing reads; N_TOT_READS: 4920 ......
+Processing reads Done
+Finished reads; N_TOT_READS: 4920 N_COMPUTED_ALN: 34 N_CACHED_ALN: 4886 N_COMPUTED_NOTALN: 0 N_CACHED_NOTALN: 0
+Sequences Alignment Done!
+Calculating allele frequencies...
+Done!
+Saving processed data...

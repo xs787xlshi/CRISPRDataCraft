@@ -1,0 +1,13 @@
+CRISPResso version 2.2.9
+[Command used]:
+CRISPRDataCraft.py -fq output_exp2/merge/output_exp2_TaHPPDUTR1A_2.extendedFrags_filtered.fastq.gz --amplicon_seq CTAGCTCGAGCCCCCACACCACCAAACGCCAAAAGACAAATCCCACCCGCCACCACTAAACCCCAAGGCCCACGTGGCGTCATCTGCTCCCTTTATTACCCCCACTTCTCCCGTAACTGATAACCCGGAGCCACTACCACACGCAGACAAGAAGCGAACACA -o output_exp2 --amplicon_name TAHPPDUTR1A_6A --quantification_window_center -3 --quantification_window_size 20 --left_primer_seq CCATCACA --right_primer_seq CACCATGC --n_processes_for_pooled 5 --min_average_read_quality 30 --min_bp_quality_or_N 20
+
+[Execution log]:
+Aligning sequences...
+Processing reads; N_TOT_READS: 25196 ......
+Processing reads Done
+Finished reads; N_TOT_READS: 25196 N_COMPUTED_ALN: 1243 N_CACHED_ALN: 23953 N_COMPUTED_NOTALN: 0 N_CACHED_NOTALN: 0
+Sequences Alignment Done!
+Calculating allele frequencies...
+Done!
+Saving processed data...
