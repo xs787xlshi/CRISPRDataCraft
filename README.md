@@ -10,7 +10,8 @@
     4. Customized Sequence Alignment: The target segments in the sequencing reads are aligned to the reference sequence using an customized algorithm. This alignment algorithm employs a "divide and conquer" strategy: it identifies matching seeds, extends them bidirectionally until mismatches are enountered, and recursively searches for new seeds in the remaining regions, ensuring both efficiency and accuracy in the alignment process.
     5. Mutation Quantification: Mutations, insertions and deletions are quantified to determine whether a read is modified or unmodified by genome editing. This module was developed by modifying CRISPResso2 software (https://github.com/pinellolab/CRISPResso2/tree/master) 
   
-  In addition, CRISPRDataCraft provides the following tools, with output of IGDB_split_merge_seed_aligner_local.py as input files: 
+  In addition, CRISPRDataCraft provides the following tools, with output of IGDB_split_merge_seed_aligner_local.py as input files:
+  
     1. Codon Shift Analysis: Statistical evaluation of codon shifts resulting from genome editing.
        Note: The reference fragment in gene.fa must be a CDS starting at the first position of the protein-encoding triplet codon. 
     2. Desired Mutant Analysis: Statistical assessment of desired mutants generated through genome editing
