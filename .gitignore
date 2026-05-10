@@ -1,0 +1,28 @@
+# output folders
+output_exp1/
+output_exp2/
+
+# temporary
+*.out
+Error_message/
+
+# backup
+*~
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# compiled Cython
+*.so
+
+# build files
+build/
+dist/
+
+# logs
+*.log
+
+# old versions
+CRISPRDataCraft_v0.1/
